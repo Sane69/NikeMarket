@@ -1,0 +1,322 @@
+@media screen and (max-width: 1318px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mens {
+    height: 1600px;
+  }
+  .mens__main--block {
+    display: block;
+  }
+  .mens__main--block img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .mens__main--blockImg h1 {
+    font-size: 32px;
+    top: 50px;
+    left: 40px;
+  }
+  .mens__main--blockImg2 h1 {
+    font-size: 32px;
+    top: 50px;
+    left: 40px;
+  }
+  .mens__main--blockImg3 h1 {
+    font-size: 32px;
+    top: 50px;
+    left: 40px;
+  }
+  .mens__main--blockImg4 h1 {
+    font-size: 32px;
+    top: 50px;
+    left: 40px;
+  }
+  .mens__main--blockImgView1 {
+    top: 60%;
+    left: 10%;
+  }
+  .mens__main--blockImgView2 {
+    left: 14%;
+  }
+  .mens__main--blockImgView2:hover {
+    left: 10%;
+  }
+  .mens__main--blockImgView7 {
+    left: 10%;
+  }
+  .mens__main--blockImgView8 {
+    left: 14%;
+  }
+  .mens__main--blockImgView8:hover {
+    left: 10%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .main__info {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .main__info h1 {
+    font-size: 38px;
+    margin: 0;
+  }
+  .product {
+    height: 1900px;
+  }
+  .product__new {
+    text-align: center;
+  }
+  .product__main {
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .product__main--flex {
+    margin-bottom: 20px;
+  }
+  .product__main--shoes {
+    margin-right: 0;
+  }
+  .product__main--infoText {
+    padding-left: 0;
+    text-align: center;
+  }
+  .run {
+    background-position: left;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .letter {
+    height: 300px;
+  }
+  .letter__main {
+    padding: 20px 20px 0 20px;
+    display: block;
+  }
+  .letter__main p {
+    width: 100%;
+  }
+  .letter__main--email input#address {
+    width: 230px;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .info {
+    height: 370px;
+  }
+  .info__main {
+    display: block;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .info__main--search {
+    margin-top: 20px;
+  }
+  .info__main--logo img {
+    margin: 0 auto;
+    display: block;
+  }
+  .info__main--cart {
+    margin: 20px auto;
+    max-width: max-content;
+  }
+  .info__main--nav {
+    margin-top: 50px;
+  }
+  .info__main--nav ul {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 970px) {
+  .run__main--arrow {
+    margin-left: auto;
+    margin-top: 365px;
+    width: 75%;
+  }
+  .run__main--arrow span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header__menu {
+    justify-content: space-between;
+  }
+  .header__menu--info {
+    display: none;
+  }
+  .header__menu--selectLink::before {
+    left: 215px;
+  }
+  .header__menu--Value a::after {
+    left: 85px;
+  }
+  #hamburger {
+    display: block;
+  }
+}
+@media screen and (max-width: 780px) {
+  .mens__main--blockImg h1 {
+    top: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .brand {
+    height: 1000px;
+  }
+  .brand__main--img1 {
+    flex-direction: column;
+  }
+  .brand__main--img1 img {
+    height: 115px;
+    margin-bottom: 40px;
+  }
+  .brand__main--img1 img:nth-child(1) {
+    width: 110px;
+  }
+  .brand__main--img1 img:nth-child(2) {
+    width: 270px;
+  }
+  .brand__main--img2 {
+    flex-direction: column;
+  }
+  .brand__main--img2 {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .brand__main--img2 img {
+    height: 115px;
+    margin-bottom: 40px;
+  }
+  .brand__main--imgOne {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .run__main--info {
+    display: block;
+    padding-left: 20px;
+  }
+  .run__main--infoRound img {
+    width: 11px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer {
+    height: 1250px;
+  }
+  .footer__main {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .footer__main--logo {
+    max-width: 280px;
+  }
+  .footer__main--logo img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .info {
+    height: 590px;
+  }
+  .info__main--search input#search {
+    width: 170px;
+    padding-left: 15px;
+  }
+  .info__main--nav ul {
+    display: block;
+    margin: 0 auto;
+    max-width: max-content;
+    text-align: center;
+  }
+  .info__main--nav {
+    margin-top: 0;
+  }
+  .info__main--navNew {
+    left: 50px;
+  }
+  .info__main--nav25 {
+    right: 65px;
+  }
+  .info__main--nav li {
+    margin-bottom: 30px;
+  }
+  .info__main--nav li:last-child {
+    margin-bottom: 0;
+    margin-left: -25px;
+  }
+  .info__main--nav a {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main__info h2 {
+    margin: 0;
+  }
+  .main__info p {
+    font-size: 10px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mens__main--blockImgView2 {
+    left: 18%;
+  }
+  .mens__main--blockImgView4 {
+    left: 18%;
+  }
+  .mens__main--blockImgView6 {
+    left: 18%;
+  }
+  .mens__main--blockImgView8 {
+    left: 18%;
+  }
+  .product__main--shoes {
+    width: 295px;
+  }
+  .product__main--shoesProduct {
+    margin-left: 20px;
+  }
+  .product__main--shoesStickerSpan {
+    margin-left: 50px;
+  }
+  .product__main--shoesStickerSpan1 {
+    margin-left: 90px;
+  }
+  .letter {
+    height: 400px;
+  }
+  .letter__main--email button {
+    margin-top: 20px;
+  }
+  .modal {
+    width: 300px;
+  }
+  .content input {
+    width: 90%;
+  }
+  .content__btn {
+    width: 88%;
+  }
+  .content__btn--acc {
+    width: 88%;
+  }
+  .content__name {
+    justify-content: space-around;
+  }
+}
